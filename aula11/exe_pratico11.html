@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NACIONALIDADE</title>
+
+    <style>
+        body{
+            font: normal 13pt Arial;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Verificando Nacionalidade</h1>
+    Digite o País onde você nasceu: <input type="text" name="" id="txtpais">
+    <input type="button" value="Verificar" onclick="verificar()">
+    
+    <div id="result">
+
+    </div>
+
+    <script>
+     function verificar(){
+            var txtpais = window.document.querySelector('input#txtpais').value
+            var res = window.document.getElementById('result')
+
+            res.innerHTML=`<p>Você nasceu no(a) <strong>${txtpais}</strong>.</p>`
+
+            if ( txtpais.toLowerCase() == 'brasil') {
+                res.innerHTML += `<p>Você é <strong>BRASILEIRO!</strong></p>`
+            } else {
+                res.innerHTML += `<p>Você é <strong>ESTRANGEIRO!</strong></p>`
+            }
+        }
+    </script>
+
+</body>
+</html>

@@ -181,9 +181,33 @@
 		SÃO CODIGOS QUE FICAM DENTRO DAS CHAVES "{}" E DEVE SER NOMEADO COMO FUNCTION "function acao(parametros){}"
 
 //CONDICOES 
+	EXISTEM DIVERSOS TIPOS DE CONDIÇÕES, TEMOS ABAIXO ALGUNS EXEMPLOS:
 	
+	-CONDIÇÃO SIMPLES
+		if (condicao) {
+			true //se o valor da condicao for verdadeira, faca tal coisa se for falsa siga em frente.
+		}
 
-	OBS: REFAZER A AULA NUMERO 11
-	CRIAR O EXERCICIO OO8 EM FORMA DE SITE
+	-CONDIÇÃO COMPOSTA
+		if (condicao) {
+			true //e o valor da condicao for verdadeira, faca tal coisa .
+		} else { //se não execute o processo abaixo.
+			false
+		}
 
-	PARAMOS NA AULA 12
+	-CONDIÇÕES ANINHADAS
+		SE A (condicao1) FOR VERDADEIRA SERA EXECUTADO O BLOCO 1,
+		SE NAO, SERA EXECUTADA A (condicao2), SENDO VERDADEIRA O BLOCO 2 É EXECUTADO,
+		SE (condicao2) TAMBEM FOR FALSA, O BLOCO 3 SERÁ EXECUTADO.
+		 
+		 if (condicao1) { //primeira validacao.
+			 bloco 1
+		 } else {
+			 if (condicao2) { //segunda validacao.
+				 bloco 2
+			 } else {
+				 bloco 3
+			 }
+		 }
+
+		 AULA 12 14:14 MINUTOS
