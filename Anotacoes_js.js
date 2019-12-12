@@ -210,4 +210,4 @@
 			 }
 		 }
 
-		 AULA 12 14:14 MINUTOS
+		 AULA 12 14:14 MINUTOS.
