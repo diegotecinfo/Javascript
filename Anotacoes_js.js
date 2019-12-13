@@ -210,4 +210,24 @@
 			 }
 		 }
 
-		 AULA 12 14:14 MINUTOS
+	-EXEMPLO DE COMO UTILIZAR A HORA ATUAL EM UM ALGORITIMO
+		 var agora = new Date() // sempre utilizar new Date
+		 var hora = agora.getHours() // chama a variavel agora que está com o parametro new Date e abstrai o horario atual getHours()
+		 console.log(`Hora atual ${hora}`)
+
+	-CONDIÕES MULTIPLAS
+		 FUNCIONA DA SEGUINTE FORMA, SE O RESULTADO DA EXPRESSAO FOR IGUAL A UM DOS VALORES DEFINIDOS, ELE EXECUTA O BLOCO DE COMANDOS,
+		 PARA NO BREAK E SAI DA CONDICAO SEGUINDO O FLUXO DO PROGRAMA.
+		 FUNCIONA APENAS COM NÚMEROS INTEIROS E STRING, SEMPRE VALORES FIXOS.
+		 switch (expressao) {
+			 case valor 1:
+				 
+			 	break
+			 case valor 2:
+
+			 	break
+			 case valor 3:
+
+			 	break
+			 default
+		 }
