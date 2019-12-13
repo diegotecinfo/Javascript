@@ -210,6 +210,7 @@
 			 }
 		 }
 
+<<<<<<< HEAD
 	-EXEMPLO DE COMO UTILIZAR A HORA ATUAL EM UM ALGORITIMO
 		 var agora = new Date() // sempre utilizar new Date
 		 var hora = agora.getHours() // chama a variavel agora que está com o parametro new Date e abstrai o horario atual getHours()
@@ -231,3 +232,6 @@
 			 	break
 			 default
 		 }
+=======
+		 AULA 12 14:14 MINUTOS.
+>>>>>>> c86b5dce61afd2732b260d5d4a2db1a6180333dd
