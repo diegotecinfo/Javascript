@@ -232,5 +232,7 @@
 			 default
 		 }
 
+//OBS: SITE PARA CAPTAR IMAGENS GRATUITAS SEM DIREITOS AUTORAIS
+	https://www.pexels.com/pt-br/procurar/portugu%C3%AAs/
 
-// EXERCICIOS 0 - AULA 14 - 04:45 PHOTOSHOP
+	// EXERCICIOS 0 - AULA 14 - 04:45 PHOTOSHOP
