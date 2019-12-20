@@ -235,4 +235,4 @@
 //OBS: SITE PARA CAPTAR IMAGENS GRATUITAS SEM DIREITOS AUTORAIS
 	https://www.pexels.com/pt-br/procurar/portugu%C3%AAs/
 
-	// EXERCICIOS PT 3 - AULA 15- 3:43
+	// REPETIÇÕES PARTE 1 - AULA 13
