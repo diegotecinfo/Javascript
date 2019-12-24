@@ -249,6 +249,19 @@
 			CASO CONTRÁRIO A REPTIÇÃO É ENCERRADA
 		 }
 
-		REPETIÇÕES PARTE 2
+		 - ESTRUTURA DE REPETIÇÃO COM VÁRIÁVEL DE CONTROLE 
+			 NESTE CASO PRECISAMOS DE 3 PARAMETROS QUE SÃO:
+			 1 - INICIALIZAÇÃO
+			 2 - TESTE LÓGICO 
+			 3 - INCREMENTO
+		   APOS PASSAR PELOS 2 PRIMEIROS PARAMETROS, SE FOR VERDADEIRO O INCRMENTO É EXECUTADO ATÉ CHEGARMOS AO FIM DA CONDIÇÃO
+		   CASO CONTRARIO FIM DO LAÇO
+
+		   for (inicializacao; teste_logico; incremento) {
+			   console.log('Bloco a ser executado como exemplo')
+		   }
+		   
+
+		
 		 
 
