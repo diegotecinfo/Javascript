@@ -260,7 +260,9 @@
 		   for (inicializacao; teste_logico; incremento) {
 			   console.log('Bloco a ser executado como exemplo')
 		   }
-		   
+
+
+		   // EXERCICIOS PARTE 4 - ASSISTIR NOVAMENTE E TENTAR FAZER
 
 		
 		 
