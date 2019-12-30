@@ -1,26 +1,26 @@
-function calcular () {
-    var ini = document.getElementById('txtini')
-    var fim = document.getElementById('txtfim')
-    var passo = document.getElementById('txtpasso')
+function calcular() {
+    var ini = Number(document.getElementById('txtini').value)
+    var fim = Number(document.getElementById('txtfim').value)
+    var passo = Number(document.getElementById('txtpasso').value)
+    var laco = ini
     var result = document.querySelector('div#res')
 
-        if (ini.value.length == 0 || fim.value.length == 0){
-            alert('Prencha o campo Inicio e Fim')
-        } else if (passo.value == 0 || passo.value.length == 0) {
-            alert('Passo inválido, será considerado passo 1!')
-            passo = 1
-        }
+    if (ini == null || fim == 0) {
+        alert('Prencha o campo Inicio e Fim')
+    } else if (passo == 0 || passo == null) {
+        alert('Passo inválido, será considerado passo 1!')
+        passo = 1
+    } else {
+        //console.log(ini)
+        //console.log(passo)
+        //console.log(laco)
 
-        for (teste = ini+=passo; ini <= fim; ini+=passo) {
-            console.log(teste.value)
+        while (ini < fim) {
+            laco += passo
+            console.log(laco)
         }
+    }
 }
-
-
-
-
-
-
 
 
 
