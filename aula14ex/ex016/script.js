@@ -2,28 +2,30 @@ function calcular() {
     var ini = Number(document.getElementById('txtini').value)
     var fim = Number(document.getElementById('txtfim').value)
     var passo = Number(document.getElementById('txtpasso').value)
-    var laco = ini
-    var result = document.querySelector('div#res')
+    var res = document.querySelector('div#res')
 
-    if (ini == null || fim == 0) {
-        alert('Prencha o campo Inicio e Fim')
-    } else if (passo == 0 || passo == null) {
-        alert('Passo inválido, será considerado passo 1!')
-        passo = 1
+    if (ini == '' || fim == 0) {
+        res.innerHTML = 'Impossível contar!'
+        console.log(`${ini} ${fim} ${passo}`)
     } else {
-        //console.log(ini)
-        //console.log(passo)
-        //console.log(laco)
-
-        while (ini < fim) {
-            laco += passo
-            console.log(laco)
+        if (passo <= 0) {
+            window.alert('Passo inválido, considerando Passo 1')
+            passo = 1
+            console.log(`${ini} ${fim} ${passo}`)
         }
+        res.innerHTML = 'Contando: '
+        //Contagem crescente
+        if (ini < fim) {
+            while (ini <= fim) {
+                res.innerHTML += ` ${ini} \u{1F449}`
+                ini += passo
+            }
+        } else {
+            //Contagem regressiva
+            for (laco = ini; laco >= fim; laco -= passo) {
+                res.innerHTML += ` ${laco} \u{1F449} `
+            }
+        }
+        res.innerHTML += `\u{1F3c1}`
     }
 }
-
-
-
-// VALIDAÇÃO 1 - É OBRIGATORIO O PREENCHIMENTO DO CAMPO INICIO
-
-// VALIDAÇÃO 2 - NÃO É PERMITIR QUE O CAMPO PASSO SEJA PREENCHIDO COM VALOR ZERO, QUANDO ISSO ACONTECER ALTERAR PARA PASSO = 1
