@@ -291,7 +291,10 @@
 		   num.sort()
 		   console.log(num.sort())
 
-		   // AULA 15 - 18:37 MINUTOS
+		   COMANDO PARA BUSCAR VALORES DENTRO DO ARRAY
+		   let num = [5, 8, 4, 6, 7]
+		   num.indexOf(4) - BUSCA DENTRO DO ARRAY O VALOR 4 E INFORMA A CHAVE OU POSIÇÃO ONDE ELA ESTÁ, NESTE CASO O RESULTADO SERA 2
+
 
 
 		
