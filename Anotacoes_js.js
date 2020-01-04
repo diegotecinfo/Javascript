@@ -321,11 +321,6 @@
 			let res = parimp (11) // CHAMADA DA ACAO COM A INSERCAO DO NÚMERO 11 COMO PARAMETRO
 			console.log(res)
 
-			EXECÍCIOS PARTE 7 
-
-			09:28 MINUTOS
-
-
 
 		
 		 
