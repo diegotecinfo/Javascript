@@ -321,6 +321,34 @@
 			let res = parimp (11) // CHAMADA DA ACAO COM A INSERCAO DO NÚMERO 11 COMO PARAMETRO
 			console.log(res)
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+			- O QUE FOI VISTO NESTE CURSO
+
+			* FUNDAMENTOS
+			* VARIAVEIS E DADOS
+			* OPERADORES 
+			* CONDICOES
+			* REPETICOES
+			* ARRAYS
+			* FUNCTIONS
+			* DOM
+
+			- O QUE DEVO ESTUDAR DAQUI EM DIANTE
+
+			1 - HTML E CSS
+			2 - ESTUDAR MAIS SOBRE FUNÇÕES
+			3 - JAVASCRIPT FUNCIONAL
+			4 - OBJETOS
+			5 - MODULARIZAÇÃO
+			6 - REGEX EXPRESSÕES REGULARES
+			7 - JSON
+			8 - AJAX
+			9 - NODEJS
+
+
+// FIM  DO  CURSO 
+
 
 		
 		 
